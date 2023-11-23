@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecart Insider</title>
+        <!-- Tautan ke Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Iceberg&family=Metal+Mania&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div
+        class="container">
+        <div class="col-1">
+        </div>
+        <div class="col-2">
+            <div class="form">
+                <h1>Tecart Insider</h1>
+                <p class="description">We are an organization based on Udayana University, we share our <br> perspective about the world to students in the engineering faculty</p>
+                <div class="form-content">
+                    <ul>
+                        <li>Mainly talk programming, ui/ux, networking, business intelligence.</li>
+                        <li>Analyzing with AI, with comprehensive algorithm,</li>
+                        <li>And many more !!!</li>
+                    </ul>
+                </div>
+                <form class="input-form" onsubmit="event.preventDefault(); validateEmail();">
+                    <label for="user-input">Email Address:</label>
+                    <input type="text" id="email" name="email" required>
+                    <button type="submit">Subscribe to Monthly Newsletter</button>
+                    <p id="error-message" style="color: red;"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
